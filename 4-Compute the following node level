@@ -2,9 +2,9 @@
 
 library(igraph)
 
-nodes <- read.csv(file.choose(), header=T, , as.is=T)   #Dataset1-Media-Example-EDGES
+nodes <- read.csv(file.choose(), header=T, , as.is=T)   #Dataset1-Media-Example-NODES
 head(nodes)
-links <- read.csv(file.choose(), header=T, as.is=T)    #Dataset1-Media-Example-NODES
+links <- read.csv(file.choose(), header=T, as.is=T)    #Dataset1-Media-Example-edges
 head(links)
 
 # Create a graph from the data
