@@ -1,43 +1,23 @@
 Software --> R studio
 
-(i)	Number of nodes and edges
+i)Number of nodes and edges
 library(igraph)
-g <- graph.formula(1-2, 1-3, 2-3, 2-4, 3-5, 4-5, 4-6,4-7, 5-6, 6-7)
-Name of Edges & Nodes
+g <-graph.formula(1-2,1-3,2-3,3-4,3-5,5-6,5-7,6-7)
 V(g)
 E(g)
-Plotting of graph
 plot(g)
 
-
-dg <- graph.formula(1-+2, 1-+3, 2++3)
-plot(dg)
-dg1 <- graph.formula(Sam-+Mary, Sam-+Tom, Mary++Tom)
-plot(dg1)
-Number of vertices/node:
-  vcount(g)
-Number of edges/dyad/ties:
-  ecount(g)
+ii)Degree of nodes
 degree(g)
+degree(g, mode="in")
+degree(g, mode="out")
 
-(ii)	Degree of nodes
-In-degree
-degree(dg, mode="in")
-Out-degree
-degree(dg, mode="out")
+iii)nodes with lowest degree and highest degree
+V(g)$name[degree(g)==min(degree(g))]
+V(g)$name[degree(g)==max(degree(g))]
 
-(iii)Nodes with lowest degree and highest degree
-Node with lowest degree
-V(dg)$name[degree(dg)==min(degree(dg))]
-Node with highest degree
-V(dg)$name[degree(dg)==max(degree(dg))]
+iv)Adjacency.matrix
+get.adjlist(g)
 
-
-neighbors(g,5)
-neighbors(g,2)
-
-(iii)	Adjacency matrix
-get.adjlist(dg)
-
-(iv)	Matrix of the graph
+v)matrix of the graph
 get.adjacency(g)
