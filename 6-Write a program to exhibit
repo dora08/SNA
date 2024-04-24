@@ -3,7 +3,6 @@ i.	Structural equivalence
 ii.	Automatic equivalence &
 iii.	Regular equivalence from a network
 
-
 install.packages("sna")
 library(sna)
 library(igraph)
