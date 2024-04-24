@@ -1,0 +1,15 @@
+Hamming distance is a metric used to measure the difference between two strings of equal length. It calculates the minimum number of substitutions required to change one string into the other.
+
+library(e1071)
+x <- c(0, 0, 0, 0)
+y <- c(0, 1, 0, 1)
+z <- c(1, 0, 1, 1)
+w <- c(0, 1, 1, 1)
+
+
+hamming.distance(x, y)
+hamming.distance(y,z)
+hamming.distance(y,w)
+hamming.distance(z,w)
+hamming.distance(x, w)
+hamming.distance(x, z)
