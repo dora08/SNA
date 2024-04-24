@@ -1,1 +1,40 @@
+1 Write a program to compute the following for a given a network:
+(i) number of edges, 
+(ii) number of nodes; (
+iii) degree of node; (
+iv)node with lowest degree; 
+(v) the adjacency list; 
+(vi) matrix of the graph.
+
+2) Perform following tasks:
+(i) View data collection forms and/or import one-mode/two-mode datasets; 
+(ii) Basic Networks matrices transformations
+
+3) For a given network find the following:
+(i)Length of the shortest path from a given node to another node; 
+(ii) the density of the graph; 
+(iii) Draw egocentric network of node G with chosen configuration parameters.
+
+4) Compute the following node level measures:
+(i) Density; 
+ii) Degree; 
+(iii) Reciprocity;
+(iv) Transitivity; 
+(v)Centralization; 
+(vi) Clustering.
+
+5) Write a program to distinguish between a network as a matrix, a network as an edge list, and a network as a sociogram (or “network graph”) using 3 distinct networks representatives of each.
+
+6) Write a program to exhibit structural equivalence, automorphic equivalence, and regular equivalence from a network.
+
+7)Displaying Bipartite network in the graph format.
+
+8)Hamming distance 
+
+
+
+
+
+
+
 
