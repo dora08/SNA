@@ -3,9 +3,9 @@ Perform following tasks:
 (ii) Basic Networks matrices transformations
 
 
-nodes <- read.csv(file.choose(), header=T, , as.is=T)  
+nodes <- read.csv(file.choose(), header=T, , as.is=T)  #Dataset1-Media-Example-NODES
 head(nodes) 
-links <- read.csv(file.choose(), header=T, as.is=T) 
+links <- read.csv(file.choose(), header=T, as.is=T) #Dataset1-Media-Example-EDGES
 head(links) 
 install.packages("igraph") 
 library(igraph) 
@@ -13,4 +13,5 @@ net <- graph.data.frame(d=links, vertices=nodes, directed=T)
 m=as.matrix(net) 
 get.adjacency(m)
 plot(net)
+
 
