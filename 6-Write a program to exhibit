@@ -3,6 +3,13 @@ i.	Structural equivalence
 ii.	Automatic equivalence &
 iii.	Regular equivalence from a network
 
+i. Structural equivalence: It's a measure of similarity between two programs based on their structures, disregarding variable names and comments.
+ii. Automatic equivalence: This refers to the capability of systems or tools to automatically determine if two programs are equivalent without human intervention, often used in software verification.
+iii. Regular equivalence: This involves determining if two programs produce the same outputs for all possible inputs, typically using formal methods such as theorem proving or model checking.
+
+
+
+
 install.packages("sna")
 library(sna)
 library(igraph)
